@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+height: 1500px;
+/* Created with https://www.css-gradient.com */
+background: #AED9F6;
+background: -webkit-linear-gradient(bottom, #AED9F6, #FFFFFF);
+background: -moz-linear-gradient(bottom, #AED9F6, #FFFFFF);
+background: linear-gradient(to top, #AED9F6, #FFFFFF);
+}

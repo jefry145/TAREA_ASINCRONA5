@@ -1,0 +1,39 @@
+<div>
+<div class="row py-4">
+    <div class="col-3"></div>
+    <div id="titulo" class="col text-center">
+        <h2>CALCULADORA</h2>
+    </div>
+    <div class="col-4"></div>
+</div>
+<div class="row py-2">
+    <div class="col-3"></div>
+    <div class="col">
+        <input placeholder="Ingrese un valor" class="form-control" type ="number" [(ngModel)]="val1" id="val1">
+        <br>
+        <input placeholder="Ingrese un valor" class="form-control" type ="number" [(ngModel)]="val2" id="val2">
+    </div>
+    <div id="resultado"  class="col">
+        <p>Numero:1: {{val1}}</p>
+        <p>Numero:2: {{val2}}</p>
+        <p>El resultado es :{{rta}}</p>
+    </div>
+    <div class="col-4"></div>
+</div>
+<div class="row py-2">
+    <div class="col-3"></div>
+    <div class="col">
+        <button (click)="suma()" class="btn btn-outline-success">SUMA</button>
+    </div>
+    <div class="col">
+        <button (click)="resta()" class="btn btn-outline-danger">RESTA</button>
+    </div>
+    <div class="col">
+        <button (click)="multiplicacion()" class="btn btn-outline-warning" >MULTIPLICACION</button>
+    </div>
+    <div class="col">
+        <button (click)="division()" class="btn btn-outline-dark">DIVISION</button>
+    </div>
+    <div class="col-4"></div>
+</div>
+</div>
